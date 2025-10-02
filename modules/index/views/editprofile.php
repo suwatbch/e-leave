@@ -62,9 +62,8 @@ class View extends \Gcms\View
                 'label' => '{LNG_Username}',
                 'comment' => '{LNG_Used for login}',
                 'disabled' => $isAdmin ? false : true,
-                'maxlength' => 8,
                 'value' => $user['username'],
-                'validator' => array('keyup,change', 'checkUsername', 'index.php/index/model/checker/username')
+                // allow any text, no length or email-like validation
             ));
             // password, repassword
             $groups = $fieldset->add('groups', array(
@@ -133,7 +132,6 @@ class View extends \Gcms\View
             'itemClass' => 'width50',
             'labelClass' => 'g-input icon-email',
             'label' => '{LNG_Email}',
-            'validator' => array('keyup,change', 'checkUsername', 'index.php/index/model/checker/username'),
             'disabled' => $isAdmin ? false : true,
             'value' => $user['email']
         ));

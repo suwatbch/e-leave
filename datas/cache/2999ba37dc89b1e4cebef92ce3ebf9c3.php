@@ -1,1 +1,0 @@
-<?php exit?>[{"type":0,"status":0,"count":11},{"type":3,"status":3,"count":1}]

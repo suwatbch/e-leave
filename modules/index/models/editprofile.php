@@ -170,7 +170,7 @@ class Model extends \Kotchasan\Model
             if (Login::notDemoMode($login)) {
                 try {
                     $save = array(
-                        'username' => $request->post('register_username')->username(),
+                        'username' => $request->post('register_username')->text(),
                         'phone' => $request->post('register_phone')->number(),
                         'sex' => $request->post('register_sex')->topic(),
                         'id_card' => $request->post('register_id_card')->number(),

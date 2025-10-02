@@ -7797,3 +7797,33 @@
 [2025-05-05 08:35:45] ERROR: <br>Exception : <em>SQLSTATE[HY000] [2002] No such file or directory</em> in <b>/var/www/html/Kotchasan/Database/Db.php</b> on line <b>38</b> 
 [2025-05-05 08:35:45] ERROR: <br>Exception : <em>SQLSTATE[HY000] [2002] No such file or directory</em> in <b>/var/www/html/Kotchasan/Database/Db.php</b> on line <b>38</b> 
 [2025-05-05 08:35:45] ERROR: <br>Exception : <em>SQLSTATE[HY000] [2002] No such file or directory</em> in <b>/var/www/html/Kotchasan/Database/Db.php</b> on line <b>38</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave1</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>378</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>378</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave2</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>382</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>382</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave3</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>386</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>386</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave5</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>390</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>390</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave8</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>398</b> 
+[2025-10-02 16:10:39] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>398</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave1</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>378</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>378</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave2</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>382</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>382</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave3</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>386</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>386</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave5</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>390</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>390</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave8</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>398</b> 
+[2025-10-02 16:14:00] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>398</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave1</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>376</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>376</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave2</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>380</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>380</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave3</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>384</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>384</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave5</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>388</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>388</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Undefined variable: quota_leave8</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>396</b> 
+[2025-10-02 16:16:18] ERROR: <br>PHP notice : <em>Trying to get property 'id' of non-object</em> in <b>/var/www/html/modules/index/views/editprofile.php</b> on line <b>396</b> 
