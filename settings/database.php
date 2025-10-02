@@ -1,39 +1,11 @@
 <?php
-// server portalnet 103.80.49.238
-// $servername = "localhost";
-// $username = "admineleaveup";
-// $password = "Rf5yl1^63";
-// $dbname = "eleaveup"; 
-// $port = "3306";
-// $prefix = "app";
-// $dbdriver = "mysql";
-
-// server portalnet 103.80.49.238
-// $servername = "localhost";
-// $username = "admineleave";
-// $password = "7~b0x74sB";
-// $dbname = "eleave"; 
-// $port = "3306";
-// $prefix = "app";
-// $dbdriver = "mysql";
-
-// server swmaxnet 115.178.63.11
-$servername = "115.178.63.11";
-$username = "swmaxnet_admin";
-$password = "%2Y2il5c0";
-$dbname = "swmaxnet_eleave"; 
+$servername = "db";
+$username = "admin_eleave";
+$password = "admin231";
+$dbname = "eleaveup"; 
 $port = "3306";
 $prefix = "app";
 $dbdriver = "mysql";
-
-// xampp
-// $servername = "localhost";
-// $username = "localhost_admin01";
-// $password = "localhost_password";
-// $dbname = "eleaveup"; 
-// $port = "3306";
-// $prefix = "app";
-// $dbdriver = "mysql";
 
 return array (
   'mysql' => 
