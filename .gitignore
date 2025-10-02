@@ -1,5 +1,4 @@
 # OS
-.DS_Store
 Thumbs.db
 
 # IDE/Editor
@@ -18,7 +17,6 @@ node_modules/
 
 # Logs & Cache
 *.log
-cache/
 tmp/
 temp/
 datas/logs/
