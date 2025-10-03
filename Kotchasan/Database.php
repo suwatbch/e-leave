@@ -36,7 +36,7 @@ final class Database extends KBase
         $param = (object) array(
             'settings' => (object) array(
                 'driver' => 'PdoMysql',
-                'char_set' => 'utf8',
+                'char_set' => 'utf8mb4',
                 'dbdriver' => 'mysql',
                 'hostname' => 'localhost'
             ),
