@@ -465,6 +465,7 @@ return array(
   'Start time' => 'เวลาเริ่มต้น',
   'Static' => 'ประเภทกะ',
   'Statistics for leave' => 'สถิติการลา',
+  'No data to display' => 'ไม่มีข้อมูลที่จะแสดง',
   'Status' => 'สถานะ',
   'Status for general members' => 'สถานะสำหรับสมาชิกทั่วไป',
   'Status update' => 'ปรับปรุงสถานะ',

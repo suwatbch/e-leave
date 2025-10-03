@@ -50,7 +50,7 @@ define('INIT_LANGUAGE', 'th');
  *
  * @var bool
  */
-define('USE_SESSION_DATABASE', false);
+define('USE_SESSION_DATABASE', true);
 /*
  * ระบุ SQL Mode ที่ต้องการ
  * หากพบปัญหาการใช้งาน

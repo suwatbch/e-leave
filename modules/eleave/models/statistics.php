@@ -43,10 +43,11 @@ class Model extends \Kotchasan\Model
             $where[] = array('F.start_date', '<=', $params['to']);
         }
         return static::createQuery()
-            ->select('I.id' ,'I.topic', 'I.num_days', Sql::SUM('days', 'days'), Sql::SUM('times', 'times'))
+            ->select('I.id', 'I.topic', 'I.num_days', Sql::SUM('days', 'days'), Sql::SUM('times', 'times'))
             ->from('leave I')
             ->join('leave_items F', 'LEFT', $where)
-            ->groupBy('I.topic')
+            // MySQL 8 ONLY_FULL_GROUP_BY requires all non-aggregated columns in GROUP BY
+            ->groupBy('I.id', 'I.topic', 'I.num_days')
             ->cacheOn()
             ->execute();
     }

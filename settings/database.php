@@ -31,5 +31,6 @@ return array (
     'shift_workdays' => 'shift_workdays',
     'user' => 'user',
     'user_meta' => 'user_meta',
+    'sessions' => 'sessions',
   ),
 );

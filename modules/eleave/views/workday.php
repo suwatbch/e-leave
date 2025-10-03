@@ -131,6 +131,9 @@ class View extends \Gcms\View
 
         // สร้างตาราง
         $content = $table->render();
+        if (trim($content) === '') {
+            $content = '<div class="padding-left-right-bottom"><div class="center">{LNG_No data to display}</div></div>';
+        }
         // คืนค่า HTML
         return $content;
     }
