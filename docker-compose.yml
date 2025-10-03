@@ -27,6 +27,7 @@ services:
       - '4000:80'
     volumes:
       - .:/var/www/html
+    command: bash -lc "mkdir -p datas/{logs,cache} && chown -R www-data:www-data datas && chmod -R 775 datas && apache2-foreground"
     depends_on:
       - db
 
