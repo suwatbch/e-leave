@@ -34,7 +34,7 @@ function initEleaveLeave() {
     if (this.value && $E('id').value == 0) {
       /*console.log('leave_id2');*/
       var a = this.value.toInt();
-      if (a == 3 || a == 7 || a == 8) {
+      if (a == 3 || a == 7) {
         $E('start_period').value = 0;
         $E('start_period').disabled = 1;
         $E('end_date').disabled = 0;
